@@ -1,25 +1,26 @@
-import { Card, CardContent, CardMedia, Grid, ListItem, ListItemButton, ListItemIcon, ListItemText, Typography } from '@mui/material';
 import React from 'react';
-import package1 from '../images/package2.png';
+import { Button, Card, CardContent, CardMedia, Grid, ListItem, ListItemIcon, Typography } from '@mui/material';
+import package1 from '../images/package11.png';
 import CheckIcon from '@mui/icons-material/Check';
-// import ListItem from '@mui/material/ListItem';
 
 const Package1 = () => {
     return (
-        <Grid item sx={{ mt: 5 }} xs={4} sm={4} md={4}>
+        <Grid item sx={{ my: 5 }} xs={4} sm={4} md={4}>
             <Card sx={{ minWidth: 275 }}>
                 <CardMedia
                     component="img"
-                    style={{ margin: '0 auto' }}
+                    style={{ margin: '5px auto' }}
                     image={package1}
-                    // height='200px'
+                    height='200px'
                     alt="package1"
                 />
-                <CardContent sx={{ textAlign: 'left' }}>
-                    <Typography sx={{ color: 'red' }} variant="h6" component="div">
-                        model
+                <CardContent sx={{ textAlign: 'left', mt: '0px' }}>
+                    <Typography variant="p" component="div">
+                        Monthly Access
                     </Typography>
-
+                    <Typography sx={{ color: 'red' }} variant="h6" component="div">
+                        {'\u09F3'}2000 / month
+                    </Typography>
 
                     <ListItem sx={{ mb: '-10px' }}>
                         <ListItemIcon sx={{ color: 'inherit', mr: 0 }}>
@@ -111,6 +112,7 @@ const Package1 = () => {
                         </Typography>
                     </ListItem>
 
+                    <Button sx={{ width: '100%', backgroundColor: '#625A99', color: 'white', textTransform: 'capitalize', fontWeight: 'bold', mt: '10px', '&:hover': { backgroundColor: '#625A99', color: 'white', textTransform: 'capitalize', fontWeight: 'bold', } }} variant="contained">Get Started</Button>
 
                 </CardContent>
             </Card>

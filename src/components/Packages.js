@@ -7,10 +7,10 @@ import Package3 from './Package3';
 const Packages = () => {
     return (
         <Container>
-            <Typography sx={{ mt: 5, mb: 0 }} variant="h5" gutterBottom component="div">
+            <Typography sx={{ mt: 5, mb: 0, fw: 'bold' }} variant="h5" gutterBottom component="div">
                 Choose Your Plan
             </Typography>
-            <Typography sx={{ my: 0 }} variant="caption" display="block" gutterBottom>
+            <Typography sx={{ mt: 0, }} variant="caption" display="block" gutterBottom>
                 Take your desired best plan to get access all of our course. I like to offer special license to you.
             </Typography>
 
@@ -21,6 +21,10 @@ const Packages = () => {
                 <Package3 />
 
             </Grid>
+
+            <Typography sx={{ my: 3, fontWeight: 'bold' }} variant="caption" display="block" gutterBottom>
+                ©️2021, All Rights Reserved  by Md. Akramul Hoque
+            </Typography>
         </Container>
     );
 };
