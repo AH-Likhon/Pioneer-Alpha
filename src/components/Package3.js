@@ -11,7 +11,7 @@ const Package3 = () => {
                     component="img"
                     style={{ margin: '0 auto' }}
                     image={package1}
-                    height='240px'
+                    height='230px'
                     alt="package1"
                 />
                 <CardContent sx={{ textAlign: 'left', mt: '-20px' }}>
