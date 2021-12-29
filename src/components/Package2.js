@@ -121,7 +121,7 @@ const Package2 = () => {
                     </ListItem>
 
 
-                    <Button sx={{ width: '100%', backgroundColor: 'white', color: 'black', textTransform: 'capitalize', fontWeight: 'bold', mt: '15px', '&:hover': { backgroundColor: 'white', color: 'black', textTransform: 'capitalize', fontWeight: 'bold', } }} variant="contained">Get Started</Button>
+                    <Button sx={{ width: '100%', backgroundColor: 'white', color: 'black', textTransform: 'capitalize', fontWeight: 'bold', mt: '15px', '&:hover': { backgroundColor: 'white', color: 'black', textTransform: 'capitalize', fontWeight: 'bold', } }} variant="contained">Become A Pro</Button>
 
                 </CardContent>
             </Card>

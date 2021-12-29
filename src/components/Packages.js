@@ -7,7 +7,7 @@ import Package3 from './Package3';
 const Packages = () => {
     return (
         <Container>
-            <Typography sx={{ mt: 5, mb: 0, fw: 'bold' }} variant="h5" gutterBottom component="div">
+            <Typography sx={{ mt: 5, mb: 0, fontWeight: 'bold' }} variant="h5" gutterBottom component="div">
                 Choose Your Plan
             </Typography>
             <Typography sx={{ mt: 0, }} variant="caption" display="block" gutterBottom>
